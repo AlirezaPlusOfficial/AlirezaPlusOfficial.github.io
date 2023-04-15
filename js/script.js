@@ -34,12 +34,12 @@
 	// Contact 
 
 	function Manage() {
-            var vName = document.getElementById("Esmesh").value;
-            var vEmail = document.getElementById("Emailesh").value;
-            var vText = document.getElementById("Payamesh").value;
-            if (vName == "" || vEmail == "" || vText == "") {
+            var vName = document.getElementById("vName").value;
+            var vEmail = document.getElementById("vEmail").value;
+            var vMessage = document.getElementById("vMessage").value;
+            if (vName == "" || vEmail == "" || vMessage == "") {
                alert("Please Enter your (Name , Email , Message) Thanks You <3");
             } else {
-               window.open('mailto:AlirezaPlusBusiness@gmail.com?subject=New Message From: ' + vName + ' &body=' + vText + '');
+               window.open('mailto:AlirezaPlusBusiness@gmail.com?subject=New Message From: ' + vName + ' &body=' + vMessage + '');
             }
          }
