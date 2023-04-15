@@ -30,3 +30,16 @@
 	// Default DARK CODE
 	darkmode.classList.replace('bx-moon','bx-sun');
 	document.body.classList.add('active');
+
+	// Contact 
+
+	function Manage() {
+            var vName = document.getElementById("Esmesh").value;
+            var vEmail = document.getElementById("Emailesh").value;
+            var vText = document.getElementById("Payamesh").value;
+            if (vName == "" || vEmail == "" || vText == "") {
+               alert("Please Enter your (Name , Email , Message) Thanks You <3");
+            } else {
+               window.open('mailto:AlirezaPlusBusiness@gmail.com?subject=New Message From: ' + vName + ' &body=' + vText + '');
+            }
+         }
