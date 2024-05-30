@@ -3,8 +3,9 @@
 // Array of video URLs
 const videoURLs = [
   "https://cdn.discordapp.com/attachments/1009824828527747082/1245706885647175701/home_ec2-user_mediafile4667.mp4?ex=6659ba71&is=665868f1&hm=2f677f42f61b111eb3b7b2d67b22e2ddf794edde74d2b21166362cace512c344&",
-  "https://cdn.discordapp.com/attachments/1009824828527747082/1245706885647175701/home_ec2-user_mediafile4667.mp4?ex=6659ba71&is=665868f1&hm=2f677f42f61b111eb3b7b2d67b22e2ddf794edde74d2b21166362cace512c344&",
-  "https://cdn.discordapp.com/attachments/1009824828527747082/1245706885647175701/home_ec2-user_mediafile4667.mp4?ex=6659ba71&is=665868f1&hm=2f677f42f61b111eb3b7b2d67b22e2ddf794edde74d2b21166362cace512c344&",
+  "https://cdn.discordapp.com/attachments/1009824828527747082/1241108502454206585/home_ec2-user_mediafile3149.mp4?ex=66597a9d&is=6658291d&hm=546f4bc79f5267e043c103b19c50816bc995d21ff41e270399c520540e51366b&",
+  "https://cdn.discordapp.com/attachments/1009824828527747082/1239725256101597244/VID_94800828_034309_166.mp4?ex=6659b85e&is=665866de&hm=32b646e99f771f3df74efa9a4acfa5227d51bd3ff697eeaaee767ef8a3381a12&",
+  "https://cdn.discordapp.com/attachments/1009824828527747082/1238134778130202724/home_ec2-user_mediafile2058.mp4?ex=6659351e&is=6657e39e&hm=c74309f215b808f793b5705b2a6db8068e778788788c67d12441d12a3ca47e2f&",
   // Add more video URLs as needed
 ];
 
