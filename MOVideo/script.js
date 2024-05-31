@@ -9,6 +9,9 @@ const videoURLs = [
   "https://cdn.discordapp.com/attachments/1009824828527747082/1237885481946189904/home_ec2-user_mediafile1994.mp4?ex=66599e71&is=66584cf1&hm=6dc13c20d1b3d249360aba175aefb31e60c541ef7de53a463f5443ad1e407d76&",
   "https://cdn.discordapp.com/attachments/1009824828527747082/1238060649955725423/home_ec2-user_mediafile2046.mp4?ex=665998d5&is=66584755&hm=af2b55e38dcca30e08db19d2e7bebffa78a7769c1272b50dca5f259c0af9c947&",
   "https://cdn.discordapp.com/attachments/1009824828527747082/1237882674446602333/home_ec2-user_mediafile1993.mp4?ex=66599bd4&is=66584a54&hm=20ad924a7f21001ea2add8a242c6e9269fa86df815cac91892414b1f060803ad&",
+  "https://cdn.discordapp.com/attachments/1009824828527747082/1246075290963284070/home_ec2-user_mediafile4821.mp4?ex=665b118c&is=6659c00c&hm=bb52d61f6db0594de9899f6508884956422b904e69394621ae04681cfd728a4b&",
+  "https://cdn.discordapp.com/attachments/1009824828527747082/1246075817222602822/home_ec2-user_mediafile4822.mp4?ex=665b1209&is=6659c089&hm=3564af881cec051a628e1902fab4ef924b8cf4b687129330cb873b75663ac975&",	
+  "https://cdn.discordapp.com/attachments/1009824828527747082/1246076225957396573/home_ec2-user_mediafile4823.mp4?ex=665b126b&is=6659c0eb&hm=78603a3b9b3c0edcd6692954061442ff8ac5cc5c235507bcfa03045ed62f55ec&",
 ];
 
 // Function to select a random URL from the array
