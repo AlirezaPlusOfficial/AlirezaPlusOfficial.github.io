@@ -2,16 +2,7 @@
 
 // Array of video URLs
 const videoURLs = [
-  "https://cdn.discordapp.com/attachments/1009824828527747082/1245706885647175701/home_ec2-user_mediafile4667.mp4?ex=6659ba71&is=665868f1&hm=2f677f42f61b111eb3b7b2d67b22e2ddf794edde74d2b21166362cace512c344&",
-  "https://cdn.discordapp.com/attachments/1009824828527747082/1241108502454206585/home_ec2-user_mediafile3149.mp4?ex=66597a9d&is=6658291d&hm=546f4bc79f5267e043c103b19c50816bc995d21ff41e270399c520540e51366b&",
-  "https://cdn.discordapp.com/attachments/1009824828527747082/1239725256101597244/VID_94800828_034309_166.mp4?ex=6659b85e&is=665866de&hm=32b646e99f771f3df74efa9a4acfa5227d51bd3ff697eeaaee767ef8a3381a12&",
-  "https://cdn.discordapp.com/attachments/1009824828527747082/1238134778130202724/home_ec2-user_mediafile2058.mp4?ex=6659351e&is=6657e39e&hm=c74309f215b808f793b5705b2a6db8068e778788788c67d12441d12a3ca47e2f&",
-  "https://cdn.discordapp.com/attachments/1009824828527747082/1237885481946189904/home_ec2-user_mediafile1994.mp4?ex=66599e71&is=66584cf1&hm=6dc13c20d1b3d249360aba175aefb31e60c541ef7de53a463f5443ad1e407d76&",
-  "https://cdn.discordapp.com/attachments/1009824828527747082/1238060649955725423/home_ec2-user_mediafile2046.mp4?ex=665998d5&is=66584755&hm=af2b55e38dcca30e08db19d2e7bebffa78a7769c1272b50dca5f259c0af9c947&",
-  "https://cdn.discordapp.com/attachments/1009824828527747082/1237882674446602333/home_ec2-user_mediafile1993.mp4?ex=66599bd4&is=66584a54&hm=20ad924a7f21001ea2add8a242c6e9269fa86df815cac91892414b1f060803ad&",
-  "https://cdn.discordapp.com/attachments/1009824828527747082/1246075290963284070/home_ec2-user_mediafile4821.mp4?ex=665b118c&is=6659c00c&hm=bb52d61f6db0594de9899f6508884956422b904e69394621ae04681cfd728a4b&",
-  "https://cdn.discordapp.com/attachments/1009824828527747082/1246075817222602822/home_ec2-user_mediafile4822.mp4?ex=665b1209&is=6659c089&hm=3564af881cec051a628e1902fab4ef924b8cf4b687129330cb873b75663ac975&",	
-  "https://cdn.discordapp.com/attachments/1009824828527747082/1246076225957396573/home_ec2-user_mediafile4823.mp4?ex=665b126b&is=6659c0eb&hm=78603a3b9b3c0edcd6692954061442ff8ac5cc5c235507bcfa03045ed62f55ec&",
+  "link.mp4",
 ];
 
 // Function to select a random URL from the array
