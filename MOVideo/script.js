@@ -301,7 +301,7 @@ let player = new Player(
 // on document ready
 $(function () {
   const urlParams = new URLSearchParams(window.location.search);
-  const movieUrl = getRandomURL();
+  const movieUrl = null //getRandomURL();
   let time_interval;
 
   if (
@@ -323,7 +323,7 @@ $(function () {
     }, 1000);
     player.fullScreen();
   } else {
-    $("#errorContainer").text("Sorry, No Link Provided");
+    $("#errorContainer").text("Sorry, No Videos Available Yet!");
     $(".spinner").hide();
     return;
   }
