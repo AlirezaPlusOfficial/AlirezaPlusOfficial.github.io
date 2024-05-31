@@ -301,7 +301,7 @@ let player = new Player(
 // on document ready
 $(function () {
   const urlParams = new URLSearchParams(window.location.search);
-  const movieUrl = null //getRandomURL();
+  const movieUrl = null; //getRandomURL();
   let time_interval;
 
   if (
