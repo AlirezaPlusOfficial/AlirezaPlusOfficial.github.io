@@ -4,55 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me | Alireza Asakareh</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Alireza Asakareh | Web Developer & UI/UX Designer Portfolio</title>
+    <meta name="title" content="Alireza Asakareh | Web Developer & UI/UX Designer Portfolio">
+    <meta name="description" content="Official portfolio of Alireza Asakareh, specializing in Web Development, Backend Development, and UI/UX Design. View projects and contact for professional services.">
+    <meta name="keywords" content="Alireza Asakareh, Web Developer, UI/UX Designer, Backend Developer, Portfolio, Web Development, JavaScript, React, HTML, CSS">
+    <meta name="author" content="Alireza Asakareh">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alirezaplusofficial.github.io/">
+    <meta property="og:title" content="Alireza Asakareh | Web Developer & UI/UX Designer">
+    <meta property="og:description" content="Official portfolio of Alireza Asakareh, specializing in Web Development, Backend Development, and UI/UX Design. View projects and contact for professional services.">
+    <meta property="og:image" content="https://alirezaplusofficial.github.io/11.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://alirezaplusofficial.github.io/">
+    <meta property="twitter:title" content="Alireza Asakareh | Web Developer & UI/UX Designer">
+    <meta property="twitter:description" content="Official portfolio of Alireza Asakareh, specializing in Web Development, Backend Development, and UI/UX Design. View projects and contact for professional services.">
+    <meta property="twitter:image" content="https://alirezaplusofficial.github.io/11.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://alirezaplusofficial.github.io/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
     <!-- Link To CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    
     <!-- Box Icons -->
-    <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
     <!-- Fontawesome -->
-    <link rel="stylesheet" 
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
- 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Alireza Asakareh",
+      "url": "https://alirezaplusofficial.github.io",
+      "image": "https://alirezaplusofficial.github.io/11.png",
+      "jobTitle": "Web Developer & UI/UX Designer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Alireza Asakareh"
+      },
+      "sameAs": [
+        "https://x.com/AlirezaPlus",
+        "https://github.com/alirezaplusofficial"
+      ]
+    }
+    </script>
 </head>
+
 <body>
     <!-- Navbar -->
     <header>
-        <a href="#" class="logo">Alireza Asakareh</a>
+        <a href="#" class="logo" aria-label="Alireza Asakareh Home">Alireza Asakareh</a>
  
-        <div class="bx bx-menu" id="menu-icon"></div>
+        <div class="bx bx-menu" id="menu-icon" aria-label="Toggle menu"></div>
  
         <ul class="navbar">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="/FavoriteMusics">Fav Musics</a></li>
-            <li><a href="/MOVideo">Motivational Video</a></li>
-            <div class="bx bx-moon" id="darkmode"></div>
+            <li><a href="#about" aria-label="About section">About</a></li>
+            <li><a href="#skills" aria-label="Skills section">Skills</a></li>
+            <li><a href="#services" aria-label="Services section">Services</a></li>
+            <li><a href="#portfolio" aria-label="Portfolio section">Portfolio</a></li>
+            <li><a href="#contact" aria-label="Contact section">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode" aria-label="Toggle dark mode"></div>
         </ul>
     </header>
+    
     <!-- Home -->
- 
     <section class="home" id="home">
         <div class="social">
-            <a href="#"><i class='bx bxl-github'></i></a>
-            <a href="#"><i class='bx bxl-dribbble' ></i></a>
-            <a href="#"><i class='bx bxl-behance' ></i></a>
+            <a href="https://github.com/alirezaplusofficial" aria-label="GitHub profile" rel="noopener"><i class='bx bxl-github'></i></a>
+            <a href="#" aria-label="Dribbble profile" rel="noopener"><i class='bx bxl-dribbble'></i></a>
+            <a href="#" aria-label="Behance profile" rel="noopener"><i class='bx bxl-behance'></i></a>
         </div>
         <div class="home-img">
-            <img src="11.png" alt="">
+            <img src="11.png" alt="Alireza Asakareh profile photo">
         </div>
         <div class="home-text">
             <span>Hello, I'm</span>
             <h1>Alireza Asakareh</h1>
-            <h2>Welcome to my webpage</h2>
-            <p>This journey is too long to describe, besides that it's NOT OVER! Wanna contact me?</p>
-            <a href="#contact" class="btn">Contact Me</a>
+            <h2>Web Developer & UI/UX Designer</h2>
+            <p>Passionate about creating exceptional web experiences through clean code and intuitive design. Let's build something amazing together!</p>
+            <a href="#contact" class="btn" aria-label="Contact Me">Contact Me</a>
         </div>
- 
     </section>
+    
     <!-- About -->
     <section class="about" id="about">
         <div class="heading">
@@ -62,50 +108,51 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         <!-- About Content -->
         <div class="about-container">
             <div class="about-img">
-                <img src="121.jpg" alt="">
+                <img src="121.jpg" alt="Alireza Asakareh professional photo">
             </div>
             <div class="about-text">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis beatae eius quae ab consequatur est perferendis dicta. Ad repellendus perferendis minus sunt error eos dicta enim accusantium ipsum veniam debitis quasi sint cum fugiat porro quam, blanditiis a ratione quod!</p>
+                <p>Hi, I'm Alireza Asakareh, a professional web developer and UI/UX designer with expertise in creating responsive and user-friendly web applications. With a strong foundation in HTML, CSS, JavaScript, and React, I deliver seamless digital experiences that meet both client objectives and user needs. My approach combines technical expertise with creative problem-solving to build websites that not only look great but perform exceptionally well.</p>
                 <div class="information">
                     <!-- Box 1 -->
                     <div class="info-box">
-                        <i class='bx bxs-user' ></i>
-                        <span>Tasnia Farin</span>
+                        <i class='bx bxs-user'></i>
+                        <span>Alireza Asakareh</span>
                     </div>
                     <!-- Box 2 -->
                     <div class="info-box">
-                        <i class='bx bxs-phone' ></i>
+                        <i class='bx bxs-phone'></i>
                         <span>+1 444 444 4444</span>
                     </div>
                     <!-- Box 3 -->
                     <div class="info-box">
-                        <i class='bx bxs-envelope' ></i>
-                        <span>project@farin.com</span>
+                        <i class='bx bxs-envelope'></i>
+                        <span>AlirezaPlusBusiness@gmail.com</span>
                     </div>
                 </div>
-                <a href="#" class="btn">Download Cv</a>
+                <a href="#" class="btn" aria-label="Download CV">Download CV</a>
             </div>
         </div>
     </section>
+    
     <!-- Skills -->
     <section class="skills" id="skills">
         <div class="heading">
             <h2>Skills</h2>
-            <span>My Skills</span>
+            <span>My Technical Expertise</span>
         </div>
         <!-- Skills Content -->
         <div class="skills-container">
             <div class="bars">
                 <!-- Box 1 -->
                 <div class="bars-box">
-                    <h3>HTML</h3>
+                    <h3>HTML5</h3>
                     <span>94%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar html-bar"></div>
                 </div>
                 <!-- Box 2 -->
                 <div class="bars-box">
-                    <h3>CSS</h3>
+                    <h3>CSS3</h3>
                     <span>84%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar css-bar"></div>
@@ -126,103 +173,203 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
                 </div>
             </div>
             <div class="skills-img">
-                <img src="123.png" alt="">
+                <img src="123.png" alt="Web development skills illustration">
             </div>
         </div>
- 
     </section>
+    
     <!-- Services -->
     <section class="services" id="services">
         <div class="heading">
             <h2>Services</h2>
-            <span>Our Services</span>
+            <span>What I Offer</span>
         </div>
         <div class="services-content">
             <!-- Box 1 -->
             <div class="services-box">
-                <i class='bx bx-code-alt' ></i>
+                <i class='bx bx-code-alt'></i>
                 <h3>Web Development</h3>
-                <a href="#">Learn More</a>
+                <p>Creating responsive, fast-loading websites with clean code and modern technologies.</p>
+                <a href="#" aria-label="Learn more about Web Development">Learn More</a>
             </div>
             <!-- Box 2 -->
             <div class="services-box">
-                <i class='bx bx-server' ></i>
+                <i class='bx bx-server'></i>
                 <h3>Backend Development</h3>
-                <a href="#">Learn More</a>
+                <p>Building robust server-side applications and APIs that power your digital solutions.</p>
+                <a href="#" aria-label="Learn more about Backend Development">Learn More</a>
             </div>
             <!-- Box 3 -->
             <div class="services-box">
-                <i class='bx bx-brush' ></i>
+                <i class='bx bx-brush'></i>
                 <h3>UI/UX Design</h3>
-                <a href="#">Learn More</a>
+                <p>Designing intuitive user interfaces and experiences that engage and delight users.</p>
+                <a href="#" aria-label="Learn more about UI/UX Design">Learn More</a>
             </div>
-
+            <!-- Box 4 -->
             <div class="services-box">
-                <i class='bx bxl-wordpress' ></i>
-                <h3>Wordpress Developer</h3>
-                <a href="#">Learn More</a>
+                <i class='bx bxl-wordpress'></i>
+                <h3>WordPress Development</h3>
+                <p>Custom WordPress solutions with optimized performance and user-friendly admin interfaces.</p>
+                <a href="#" aria-label="Learn more about WordPress Development">Learn More</a>
             </div>
         </div>
     </section>
+    
     <!-- Portfolio -->
     <section class="portfolio" id="portfolio">
         <div class="heading">
             <h2>Portfolio</h2>
-            <span>Our Recent Work</span>
+            <span>My Recent Projects</span>
         </div>
         <div class="portfolio-content">
             <div class="portfolio-img">
-                <img src="blog-2.jpg" alt="">
+                <img src="blog-2.jpg" alt="E-commerce website project by Alireza Asakareh">
+                <div class="portfolio-overlay">
+                    <h3>E-commerce Website</h3>
+                    <p>Full-stack development with React and Node.js</p>
+                </div>
             </div>
             <div class="portfolio-img">
-                <img src="blog-3.jpg" alt="">
+                <img src="blog-3.jpg" alt="Restaurant website project by Alireza Asakareh">
+                <div class="portfolio-overlay">
+                    <h3>Restaurant Website</h3>
+                    <p>Responsive design with online ordering system</p>
+                </div>
             </div>
             <div class="portfolio-img">
-                <img src="blog-4.jpg" alt="">
+                <img src="blog-4.jpg" alt="Blog website project by Alireza Asakareh">
+                <div class="portfolio-overlay">
+                    <h3>Blog Platform</h3>
+                    <p>Custom WordPress development with SEO optimization</p>
+                </div>
             </div>
             <div class="portfolio-img">
-                <img src="blog-5.jpg" alt="">
+                <img src="blog-5.jpg" alt="Mobile app UI project by Alireza Asakareh">
+                <div class="portfolio-overlay">
+                    <h3>Mobile App UI</h3>
+                    <p>UI/UX design for fitness tracking application</p>
+                </div>
             </div>
             <div class="portfolio-img">
-                <img src="blog-6.jpg" alt="">
+                <img src="blog-6.jpg" alt="Educational platform project by Alireza Asakareh">
+                <div class="portfolio-overlay">
+                    <h3>Educational Platform</h3>
+                    <p>Full-stack development for online learning</p>
+                </div>
             </div>
             <div class="portfolio-img">
-                <img src="blog-7.jpg" alt="">
+                <img src="blog-7.jpg" alt="Portfolio website project by Alireza Asakareh">
+                <div class="portfolio-overlay">
+                    <h3>Portfolio Website</h3>
+                    <p>Custom design and development for professionals</p>
+                </div>
             </div>
-            
         </div>
     </section>
+    
     <!-- Contact -->
     <section class="contact" id="contact">
         <div class="heading">
             <h2>Contact</h2>
-            <span>Connect With Us</span>
+            <span>Get In Touch With Me</span>
         </div>
         <div class="contact-form">
             <form action="mailto:AlirezaPlusBusiness@gmail.com" method="post">
-                <input type="text" name="vName" id="vName" placeholder="Your Name">
-                <input type="email" name="vEmail" id="vEmail" placeholder="Your Email">
-                <textarea name="vMessage" id="vMessage" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-                <input name="submit" type="submit" id="Ersal" onclick="Manage()" value="Send" class="contact-button">
+                <input type="text" name="vName" id="vName" placeholder="Your Name" required aria-label="Your Name">
+                <input type="email" name="vEmail" id="vEmail" placeholder="Your Email" required aria-label="Your Email">
+                <textarea name="vMessage" id="vMessage" cols="30" rows="10" placeholder="Write Message Here..." required aria-label="Your Message"></textarea>
+                <input name="submit" type="submit" id="Ersal" onclick="Manage()" value="Send" class="contact-button" aria-label="Send Message">
             </form>
         </div>
     </section>
+    
     <!-- Footer -->
     <div class="footer">
-        <h2>Follow My Social Network(s)</h2>
+        <h2>Follow My Social Networks</h2>
         <div class="footer-social">
-            <a href="https://x.com/AlirezaPlus"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="https://x.com/realunfazed" aria-label="Twitter/X profile" rel="noopener"><i class="fa-brands fa-square-x-twitter"></i></a>
         </div>
- 
     </div>
+    
     <!-- Copyright -->
     <div class="copyright">
-        <p>Copyright © 2024 - 2025 By <a href="#">Alireza Asakareh</a> | All Right Reserved.</p>
+        <p>Copyright © 2024 - 2025 By <a href="https://alirezaplusofficial.github.io" aria-label="Alireza Asakareh homepage">Alireza Asakareh</a> | All Rights Reserved.</p>
     </div>
- 
- 
- 
+    
     <!-- Link To JS -->
     <script src="./js/script.js"></script>
+    
+    <!-- Structured data for rich snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Alireza Asakareh Portfolio",
+      "url": "https://alirezaplusofficial.github.io",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://alirezaplusofficial.github.io/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <!-- Services structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "Service",
+          "position": 1,
+          "name": "Web Development",
+          "description": "Creating responsive, fast-loading websites with clean code and modern technologies.",
+          "provider": {
+            "@type": "Person",
+            "name": "Alireza Asakareh"
+          }
+        },
+        {
+          "@type": "Service",
+          "position": 2,
+          "name": "Backend Development",
+          "description": "Building robust server-side applications and APIs that power your digital solutions.",
+          "provider": {
+            "@type": "Person",
+            "name": "Alireza Asakareh"
+          }
+        },
+        {
+          "@type": "Service",
+          "position": 3,
+          "name": "UI/UX Design",
+          "description": "Designing intuitive user interfaces and experiences that engage and delight users.",
+          "provider": {
+            "@type": "Person",
+            "name": "Alireza Asakareh"
+          }
+        },
+        {
+          "@type": "Service",
+          "position": 4,
+          "name": "WordPress Development",
+          "description": "Custom WordPress solutions with optimized performance and user-friendly admin interfaces.",
+          "provider": {
+            "@type": "Person",
+            "name": "Alireza Asakareh"
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- GitHub Pages site verification -->
+    <meta name="google-site-verification" content="your-verification-code-here">
+    
+    <!-- Additional SEO tags for GitHub Pages -->
+    <meta name="github-repo" content="alirezaplusofficial.github.io">
+    <meta name="application-name" content="Alireza Asakareh Portfolio">
 </body>
 </html>
